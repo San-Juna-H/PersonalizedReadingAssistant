@@ -87,7 +87,7 @@ def personal_information_block():
         "관련 경험 또는 친숙한 분야:",
         ["음식과 음료", "공연 예술", "비즈니스와 경제", "정치와 정부", "생물학", "화학", "컴퓨팅", "지구와 환경", "수학", "의학과 건강", "물리학", "공학", "기술"]
     )
-    additional_info = container.text_area("추가 정보:", placeholder="본인의 특기 사항이나 취미 등을 입력해주세요.")
+    additional_info = container.text_area("추가 정보:", value ="나는 건축학과 석사 과정을 밟고 있어. 건설 기술 및 건설 관리가 나의 연구 분야이고, 특히 건설 분야에서의 컴퓨팅에 관심을 가지고 있어.", placeholder="본인의 특기 사항이나 취미 등을 입력해주세요.")
 
     # session_state에 저장
     st.session_state["personal_information"] = {

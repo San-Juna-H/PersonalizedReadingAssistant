@@ -40,8 +40,8 @@ def rewrite(difficult_sentence):
     3. REWRITE the sentence using simpler language, based on the definitions you found.
 
     You can choose various strategies when rewriting sentense. 
-    Unless there is something special, please prioritize the personalized strategy.
     To simplify, To explain, To add definition, To metaphor based on personal information, etc.
+    Unless there is something special, please prioritize the personalized strategy.
 
     Personal Information: {st.session_state["personal_information"]}
     Sentence: {difficult_sentence}
