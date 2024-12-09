@@ -5,7 +5,7 @@ def reading_page():
     st.title("🧠 Reading 🧠")
     st.divider()  # 구분선
 
-    difficult_sentence = st.text_area("", placeholder="전문적인 지식이 많이 포함돼 이해가 가지 않는 문장이 있나요?")
+    difficult_sentence = st.text_area("", , value = "In software engineering, a pipeline consists of a chain of processing elements (processes, threads, coroutines, functions, etc.)", placeholder="전문적인 지식이 많이 포함돼 이해가 가지 않는 문장이 있나요?")
     # 제출
     submitted = st.button("✍️ 더 쉽게 쓴 문장 보러 가기 🚀")
 
