@@ -75,7 +75,7 @@ def personal_information_block():
     '''
     # 개인정보 수집
     container = st.container(border=True)
-    user_name = container.text_input("*이름:", placeholder="예: 홍길동")
+    user_name = container.text_input("*이름:", value= "허찬", placeholder="예: 홍길동")
     user_age = container.number_input("*나이:", min_value=10, max_value=100, value=20)
     user_gender = container.radio("*성별:", ["남성", "여성", "기타"], horizontal=True)
     english_level = container.radio("*영어 실력:", ["상", "중", "하"], horizontal=True)
