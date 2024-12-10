@@ -13,7 +13,7 @@ def intro_page():
         
     '''
     # 제목
-    st.title("🌟 Personalized Reading Assistant 🌟")
+    st.title("🌟Personalized Reading Assistant🌟")
     st.divider()  # 구분선
 
     # 실험 설명
